@@ -51,6 +51,7 @@ floating_modifier $mod
 #tiling_drag modifier titlebar
 exec nitrogen --set-auto /home/samarth/Pictures/Wallpapers/Clearnight.jpg
 exec --no-startup-id dunst 
+exec --no-startup-id autotiling
 exec --no-startup-id picom
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id /home/samarth/.config/polybar/launch_polybar.sh
