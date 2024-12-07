@@ -20,6 +20,10 @@ zinit light zsh-users/zsh-autosuggestions
 # Load completions
 autoload -U compinit && compinit 
 
+# Prompt
+# eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/catppuccin_mocha.omp.json)"
+
 
 # History
 HISTSIZE=5000
